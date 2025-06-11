@@ -26,13 +26,13 @@ function Projects() {
     },
     {
       title: "Drumps Pad",
-      description: "A responsive music pad built using React, Vite, and Tailwind CSS. Users can select different music styles like Rock, Jazz, etc., and play tracks (A, B, or C) instantly.",
+      description: "A responsive music pad built using React, Vite, and Tailwind CSS. Users can select different music styles like Rock, Jazz, etc., and play tracks.",
       image: "https://t4.ftcdn.net/jpg/12/18/85/31/360_F_1218853168_cc0DVnV04yy7DfDkMnmguy7feCxg236m.jpg",
       livedemo: "https://drumps-pad.vercel.app/"
     },
     {
       title: "Chef-Cloud",
-      description: "A responsive recipe generator app where users can add ingredients and get AI-powered recipe suggestions. Built with React, Vite, and Tailwind CSS for a sleek, modern UI.",
+      description: "A responsive recipe generator app where users can add ingredients and get AI-powered recipe suggestions. Built with React, Vite, and Tailwind CSS.",
       image: "https://t4.ftcdn.net/jpg/12/04/65/03/360_F_1204650326_u4HFYzyF3sUgjkSVGYD3BQ0yEmmfqPKr.jpg",
       livedemo: "https://verdant-dolphin-5ec7e0.netlify.app/"
     },
