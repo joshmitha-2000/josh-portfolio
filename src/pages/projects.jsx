@@ -34,7 +34,7 @@ function Projects() {
       title: "Chef-Cloud",
       description: "A responsive recipe generator app where users can add ingredients and get AI-powered recipe suggestions. Built with React, Vite, and Tailwind CSS.",
       image: "https://t4.ftcdn.net/jpg/12/04/65/03/360_F_1204650326_u4HFYzyF3sUgjkSVGYD3BQ0yEmmfqPKr.jpg",
-      livedemo: "https://verdant-dolphin-5ec7e0.netlify.app/"
+      livedemo: "https://cheaf-claud-86va.vercel.app/"
     },
     
     {
