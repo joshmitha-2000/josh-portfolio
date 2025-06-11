@@ -67,7 +67,7 @@ function Projects() {
             <img
               src={project.image}
               alt={project.title}
-              className="rounded-lg shadow-md w-full h-60 object-cover"
+              className="rounded-lg shadow-md w-full h-60 sm:h-64 object-cover"
             />
 
             {/* Slide-Up Popup on Hover or Click */}
