@@ -26,7 +26,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div id="home" className="pt-24 sm:pt-0 min-h-[80vh] sm:min-h-screen bg-gradient-to-br from-white via-blue-50 to-purple-100 flex items-center justify-center px-4 sm:px-6 py-10 sm:py-16">
+      <div id="home" className="pt-24 sm:pt-10 min-h-[80vh] sm:min-h-screen bg-gradient-to-br from-white via-blue-50 to-purple-100 flex items-center justify-center px-4 sm:px-6 py-10 sm:py-16">
 
         <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl gap-10">
           {/* Left Section */}
