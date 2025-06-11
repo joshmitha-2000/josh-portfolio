@@ -47,7 +47,7 @@ export default function Skills() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-blue-50 to-purple-100 px-6 py-16">
       <div className="max-w-6xl text-center space-y-12">
-        <h1 className="md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
+        <h1 className="md:text-6xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
           Technical Skills
         </h1>
 
