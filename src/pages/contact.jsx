@@ -8,9 +8,15 @@ function Contact() {
           Contact Me
         </h1>
 
-        <form className="space-y-6 text-left"
-          action="https://formspree.io/f/mqabqznr"  // Replace with your actual Formspree endpoint
-          method="POST">
+        <form
+          className="space-y-6 text-left"
+          action="https://formspree.io/f/mqabqznr"
+          method="POST"
+        >
+          {/* Optional hidden inputs */}
+          <input type="hidden" name="_subject" value="New Contact Message" />
+          <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you" />
+
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <label className="block text-gray-700 font-medium mb-2">Your Name</label>
@@ -40,7 +46,7 @@ function Contact() {
               <label className="block text-gray-700 font-medium mb-2">Phone Number</label>
               <input
                 type="tel"
-                name="phone" 
+                name="phone"
                 className="w-full border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400 placeholder-gray-400"
                 placeholder="Enter your phone number"
               />
@@ -52,7 +58,7 @@ function Contact() {
                 type="text"
                 name="subject"
                 className="w-full border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-400 placeholder-gray-400"
-                placeholder="Subject of your message "
+                placeholder="Subject of your message"
               />
             </div>
           </div>
