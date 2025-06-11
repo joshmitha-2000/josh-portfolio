@@ -55,15 +55,16 @@ function Home() {
   View my work
 </a>
 
-
-              <a
-  href="/Joshmitha_BWM_resume(1).pdf"
-  download
+<a
+  href="/Joshmitha_BWM_Resume.pdf"
+  download="Joshmitha_Resume.pdf"
   className="flex items-center gap-2 border border-gray-400 hover:bg-gray-100 transition px-6 py-2 text-black rounded-full font-semibold shadow-sm"
 >
   <FaDownload />
   Resume
 </a>
+
+
 
             </div>
 
