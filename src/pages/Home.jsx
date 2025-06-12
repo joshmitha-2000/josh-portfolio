@@ -50,9 +50,9 @@ function Home() {
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
             <a
   href="#projects"
-  className="bg-gradient-to-r from-blue-500 to-purple-600 hover:opacity-90 rounded-full px-6 py-2 text-white font-semibold transition duration-300 shadow-md"
+  className="border border-gray-400 hover:bg-gray-100 rounded-full px-6 py-2 text-black font-semibold transition duration-300 shadow-md"
 >
-  View my work
+  View Projects
 </a>
 
 <a
@@ -67,6 +67,12 @@ function Home() {
 
 
             </div>
+            <a
+  href="#contact"
+  className=" border bg-gradient-to-r hover:scale-105 from-blue-500 to-purple-600 hover:opacity-90   transition px-30 py-2 text-white rounded-full font-semibold shadow-sm"
+>
+  Hire Me
+</a>
 
             {/* Social Icons */}
             <div className="flex justify-center md:justify-start gap-6 text-2xl mt-6">
